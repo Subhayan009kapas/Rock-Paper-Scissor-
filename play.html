@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Play game</title>
+          <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+          <style>
+           body{
+            background-color: #abc6f3;
+            height: 900px;
+           }
+                   
+          </style>
+</head>
+<body>
+         
+          <h1 class="head1"  >
+            
+                       <span  style="color: rgb(220, 138, 152);">Rock</span> 
+                    <i class="fa-solid fa-hand-back-fist"  style="color:bisque ;"></i>        <span>Paper</span>
+                     <i class="fa-solid fa-hand"  style="color:bisque" > </i>  
+                      <span style="color: rgb(10, 205, 219);">Scissors</span>  
+                      <i class="fa-solid fa-hand-scissors" style="color:bisque">  </i>
+                      <span     onclick="closeMe()"><i class="fa-solid fa-right-from-bracket"   class="exit"  ></i></span>
+          </h1>
+        <div  ><button  class="dark-light" ><i class="fa-solid fa-moon" ></i></button></div>
+          <div>
+           
+          <div  class="con">
+                    
+                    <div class="rock"><img src="./rock.png" height="200px"></div>
+                    <div class="paper"> <img src=".//paper.png" height="200px"></div>
+                    <div class="scissor"> <img src="./scissors_image.png"  height="200px"></div>
+          </div>
+        </div>
+          <h1 align="center" class="head1"><i class="fa-solid fa-star"  style="color:gold"></i> Score Board  <i class="fa-solid fa-star"  style="color:gold"></i></h1>
+
+          <div class="score"   >
+                    <div  class="you">
+                              <h1 style="margin-top: 50px;  font-size: 35px;"  class="user_value">0</h1>
+                              <h1  style="font-size: 30px; font-family: cursive;" > <i class="fa-solid fa-user"></i> YOU</h1>
+                    </div>
+                    <div   class="result">
+                              <h1 align="center" style="font-size: 40px;" >Result</h1>
+                    </div> 
+                    <div class="comp">
+                              <h1  style="margin-top: 50px; font-size: 35px;" class="comp_value">0</h1>
+                              <h1   style="font-size: 30px; font-family: cursive;"> <i class="fa-solid fa-computer"></i> Computer</h1>
+
+                    </div>
+                   
+                   
+          </div>
+          <script src="script.js">
+            
+          </script>
+</body>
+</html>

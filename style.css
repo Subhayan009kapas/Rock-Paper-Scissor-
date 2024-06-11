@@ -1,0 +1,288 @@
+body,html{
+    margin: 0;
+    height: 900px;
+    padding: 0;
+    
+}
+.dark-light{
+          font-size: 40px;
+          border: 5px solid black;
+          border-radius: 10px;
+          
+}
+.head1{
+          text-align: center;
+          background-color: #00072D;
+          color: aliceblue;
+          font-size: 50px;
+          font-family: cursive;
+          border: 5px solid white;
+          animation: borderAnimation 2s  ease-in-out 2s infinite;
+          width: 1800px;
+          margin: 50px;
+          margin-top: 10px;
+          
+        
+          
+         
+}
+
+.go{
+          height: 80px;;
+          width: 250px;
+          border: 5px solid black;
+          border-radius: 100px;
+          font-size: 30px;
+          box-shadow: 10px 8px 4px  #5b07c2;
+          text-align: center;
+          font-weight: bold;
+          font-family: cursive;
+          margin-top: 100px;
+          animation: borderAnimation 1s  ease-in-out 0.2s infinite;
+          background-color:   #a881af;
+          animation: button_animation 2s  ease-in-out 2s infinite;
+          
+         
+          
+
+          
+}
+a{
+          text-decoration: none;
+          color: rgb(13, 13, 1);
+}
+.go:hover{
+          box-shadow: 10px 8px 4px rgb(6, 158, 6);
+          transform: scale(1.1);
+}
+@keyframes borderAnimation {
+          0% {
+                    border-color: transparent;
+                }
+                25% {
+                    border-top-color: rgb(232, 225, 225);
+                    border-right-color: transparent;
+                    border-bottom-color: yellow;
+                    border-left-color: transparent;
+                }
+                50% {
+                    border-top-color: red;
+                    border-right-color: blue;
+                    border-bottom-color: transparent;
+                    border-left-color: transparent;
+                }
+                75% {
+                    border-top-color: red;
+                    border-right-color: blue;
+                    border-bottom-color: green;
+                    border-left-color: transparent;
+                }
+                100% {
+                    border-top-color: red;
+                    border-right-color: blue;
+                    border-bottom-color: green;
+                    border-left-color: yellow;
+                }
+
+
+
+}
+
+@keyframes button_animation {
+          0% {
+              border-color: transparent;
+          }
+          25% {
+                    border-color: rgb(234, 234, 226) rgb(33, 3, 116) rgb(226, 226, 235) rgb(7, 4, 109);
+          }
+          50% {
+                    border-color: green yellow red blue;
+          }
+          75% {
+                    border-color: blue green yellow red;
+          }
+          100% {
+                    border-color: red blue green yellow;
+          }
+
+
+
+}
+.con{
+    height:300px;
+    width: 1800px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    
+    
+
+}
+.rock{
+   
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px #FF4500;
+}
+.rock:hover{
+    transform: scale(1.1);
+    cursor: grab;
+}
+.paper{
+    box-shadow: 5px 5px 5px 5px #FFFAFA;
+    border-radius: 50%;
+}
+.paper:hover{
+    transform: scale(1.1);
+    cursor: grab;
+   
+
+}
+.scissor{
+    box-shadow: 5px 5px 5px 5px rgb(21, 65, 21);
+    border-radius: 50%;
+}
+.scissor:hover{
+    transform: scale(1.1);
+    cursor: grab;
+}
+.score{
+    height:300px;
+    width: 1800px;
+    margin-left: 50px;
+    margin-top: 40px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: rgb(241, 226, 205);
+    margin-bottom: 40px;
+
+}
+.you{
+    height: 200px;
+    width: 200px;
+    border: 20px solid black;
+    text-align: center;
+    border-bottom: 55px solid black;
+    box-shadow: 15px 15px 5px rgb(101, 87, 87);
+
+  
+}
+
+.comp{
+    height: 200px;
+    width: 200px;
+    border: 20px solid black;
+    text-align: center;
+    border-bottom: 55px solid black;
+    box-shadow: 15px 15px 5px rgb(101, 87, 87);
+
+}
+.dark-light:hover{
+    background-color: yellow;
+    transform: scale(1.1);
+
+}
+.back{
+    height: 50px;;
+          width: 250px;
+          border: 5px solid black;
+          border-radius: 100px;
+          font-size: 20px;
+          box-shadow: 10px 8px 4px  #5b07c2;
+          text-align: center;
+          font-weight: bold;
+          font-family: cursive;
+          margin-top: 100px;
+          animation: borderAnimation 1s  ease-in-out 0.2s infinite;
+          background-color:   #a881af;
+          animation: button_animation 2s  ease-in-out 2s infinite;
+
+}
+.result{
+    height: 90px; 
+    width: 300px; 
+    background-color: rgb(7, 13, 1); 
+    border: 2px  solid white; 
+    border-radius: 10px; 
+    box-shadow: 18px 18px 5px rgb(101, 87, 87); 
+    color: beige; 
+    font-family: cursive; text-align: center;
+    font-size: 35px;
+}
+.exit{
+    position: relative;
+     left: 320px;
+}
+
+@media screen and (max-width:500px){
+    .body{
+        width: 60px;
+        height: 200px;
+        margin: 0px;
+    }
+    .head1{
+        text-align: center;
+        background-color: #00072D;
+        color: aliceblue;
+        font-size: 30px;
+        font-family: cursive;
+        border: 5px solid white;
+        animation: borderAnimation 2s  ease-in-out 2s infinite;
+        width: 400px;
+        margin: 50px;
+        margin-top: 10px;
+        position: relative;
+      
+}
+.con{
+    height:300px;
+    width: 400px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    
+    
+}
+.rock img{
+    height: 100px;
+}
+.paper img{
+    height: 100px;
+}
+.scissor  img{
+    height: 100px;
+}
+.you{
+    height: 150px;
+    width: 100px;
+}
+.comp{
+    height: 150px;
+    width: 65px;
+    border: 20px solid black;
+    text-align: center;
+    border-bottom: 55px solid black;
+    box-shadow: 15px 15px 5px rgb(101, 87, 87);
+}
+.score{
+    width: 400px;
+}
+.result{
+    height: 65px;
+    font-size: 15px;
+}
+.dark-light{
+    margin-right: 0px;
+    font-size: 40px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+
+}
